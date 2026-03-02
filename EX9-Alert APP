@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
         }
 
-        // 🔥 Show result in AlertDialog
+        // Show result in AlertDialog
         AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
         builder.setTitle("RESULT");
         builder.setMessage("The Result is: " + res);
